@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470">
+<defs>
+  <linearGradient id="g1" x1="0" x2="1">
+    <stop stop-color="#22b8ff"/>
+    <stop offset=".5" stop-color="#6de3ff"/>
+    <stop offset="1" stop-color="#7a5cff"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="470" fill="#071a39"/>
+<g stroke="#fff" opacity=".08"><path d="M0 94H900M0 188H900M0 282H900M0 376H900"/></g>
+<path d="M75 255 H245" stroke="#6de3ff" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+<path d="M655 255 H825" stroke="#b987ff" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+<rect x="270" y="145" width="360" height="220" rx="30" fill="#0a2a5d" stroke="#58dfff" stroke-width="3"/>
+<text x="450" y="205" text-anchor="middle" fill="#fff" font-family="Arial" font-size="24" font-weight="700">QD-SOA</text>
+<text x="450" y="234" text-anchor="middle" fill="#bfefff" font-family="Arial" font-size="17">quantum-dot semiconductor optical amplifier</text>
+<g fill="url(#g1)">
+  <circle cx="355" cy="286" r="14"/><circle cx="405" cy="286" r="14"/><circle cx="455" cy="286" r="14"/><circle cx="505" cy="286" r="14"/><circle cx="555" cy="286" r="14"/>
+</g>
+<path d="M345 330 H555" stroke="#d7c9ff" stroke-width="4" stroke-dasharray="10 10"/>
+<text x="50" y="55" fill="#fff" font-family="Arial" font-size="26" font-weight="700">All-optical cryptography with QD-SOAs</text>
+<text x="50" y="86" fill="#9fc5ec" font-family="Arial" font-size="17">optical signal transformation and cryptographic processing in semiconductor devices</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470">
+<rect width="900" height="470" fill="#071a39"/>
+<g stroke="#fff" opacity=".09"><path d="M0 94H900M0 188H900M0 282H900M0 376H900"/><path d="M150 0V470M300 0V470M450 0V470M600 0V470M750 0V470"/></g>
+<g fill="none" stroke-linecap="round">
+<path d="M95 320 C155 320,168 122,230 122 S304 320,365 320" stroke="#46d9ff" stroke-width="7"/>
+<path d="M535 320 C595 320,608 122,670 122 S744 320,805 320" stroke="#bd6cff" stroke-width="7"/>
+<path d="M372 320 C420 260,430 195,450 120 C470 195,480 260,528 320" stroke="#fff06a" stroke-width="6"/>
+<path d="M286 340 C360 380,540 380,614 340" stroke="#7fffd1" stroke-width="4" stroke-dasharray="12 12"/>
+</g>
+<path d="M431 87 L469 87 L489 345 L411 345 Z" fill="#7a5cff" opacity=".28" stroke="#c2b7ff" stroke-width="2"/>
+<text x="50" y="55" fill="#fff" font-family="Arial" font-size="26" font-weight="700">Temporal mirrors &amp; time-domain photonics</text>
+<text x="50" y="86" fill="#9fc5ec" font-family="Arial" font-size="17">numerical reconstruction of nonlinear temporal reflection and time-lens dynamics</text>
+</svg>

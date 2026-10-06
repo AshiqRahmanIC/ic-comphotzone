@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470">
+<defs>
+  <linearGradient id="pulse" x1="0" x2="1">
+    <stop stop-color="#22b8ff"/>
+    <stop offset=".55" stop-color="#7a5cff"/>
+    <stop offset="1" stop-color="#d94df2"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="470" fill="#071a39"/>
+<g stroke="#fff" opacity=".09">
+  <path d="M0 94H900M0 188H900M0 282H900M0 376H900"/>
+  <path d="M150 0V470M300 0V470M450 0V470M600 0V470M750 0V470"/>
+</g>
+<g fill="none" stroke="url(#pulse)" stroke-width="7" stroke-linecap="round">
+  <path d="M70 330 C105 330,110 130,145 130 S185 330,220 330"/>
+  <path d="M240 330 C275 330,280 130,315 130 S355 330,390 330"/>
+  <path d="M410 330 C445 330,450 130,485 130 S525 330,560 330"/>
+  <path d="M580 330 C615 330,620 130,655 130 S695 330,730 330"/>
+  <path d="M750 330 C785 330,790 130,825 130 S865 330,895 330"/>
+</g>
+<g font-family="Arial">
+  <text x="50" y="55" fill="#fff" font-size="26" font-weight="700">Ultrashort pulse generation by hybrid mode locking</text>
+  <text x="50" y="86" fill="#9fc5ec" font-size="17">numerical study of pulse formation, stabilization, and repetition-rate control</text>
+  <text x="450" y="405" text-anchor="middle" fill="#bfefff" font-size="18">hybrid active + passive mode-locking dynamics</text>
+</g>
+</svg>

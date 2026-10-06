@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470">
+<rect width="900" height="470" fill="#071a39"/>
+<g font-family="Arial" text-anchor="middle">
+<circle cx="170" cy="250" r="85" fill="#0b58d0"/><text x="170" y="245" fill="#fff" font-size="24" font-weight="700">MODE</text><text x="170" y="274" fill="#bfefff" font-size="18">solver</text>
+<circle cx="365" cy="160" r="85" fill="#116ea5"/><text x="365" y="155" fill="#fff" font-size="24" font-weight="700">DISPERSION</text><text x="365" y="184" fill="#bfefff" font-size="18">β(ω)</text>
+<circle cx="365" cy="340" r="85" fill="#5c55d9"/><text x="365" y="335" fill="#fff" font-size="24" font-weight="700">GNLSE</text><text x="365" y="364" fill="#ddd7ff" font-size="18">RK4IP</text>
+<circle cx="595" cy="250" r="85" fill="#8b4bd1"/><text x="595" y="245" fill="#fff" font-size="24" font-weight="700">ANALYSIS</text><text x="595" y="274" fill="#f0d9ff" font-size="18">spectra + time</text>
+<circle cx="770" cy="250" r="67" fill="#1b8cad"/><text x="770" y="245" fill="#fff" font-size="20" font-weight="700">DESIGN</text><text x="770" y="271" fill="#d5f7ff" font-size="16">iterate</text>
+<g stroke="#8eeaff" stroke-width="4" opacity=".7"><path d="M255 230L300 185"/><path d="M255 270L300 315"/><path d="M450 160L535 225"/><path d="M450 340L535 275"/><path d="M680 250L703 250"/></g>
+<text x="50" y="55" text-anchor="start" fill="#fff" font-size="26" font-weight="700">Open computational workflow</text>
+<text x="50" y="86" text-anchor="start" fill="#9fc5ec" font-size="17">geometry → eigenmodes → dispersion → nonlinear propagation → data analysis</text>
+</g></svg>

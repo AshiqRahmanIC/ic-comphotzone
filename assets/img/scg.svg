@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470">
+<defs><linearGradient id="s" x1="0" x2="1"><stop stop-color="#4c62ff"/><stop offset=".2" stop-color="#22b8ff"/><stop offset=".42" stop-color="#4fffd4"/><stop offset=".58" stop-color="#fff06a"/><stop offset=".72" stop-color="#ff9b52"/><stop offset=".86" stop-color="#ff5f7a"/><stop offset="1" stop-color="#bc59ff"/></linearGradient></defs>
+<rect width="900" height="470" fill="#071a39"/>
+<g stroke="#fff" opacity=".09"><path d="M0 94H900M0 188H900M0 282H900M0 376H900"/><path d="M150 0V470M300 0V470M450 0V470M600 0V470M750 0V470"/></g>
+<path d="M60 358 C170 350,210 290,275 315 S355 160,415 260 S500 75,550 245 S635 128,690 272 S790 185,840 340" fill="none" stroke="url(#s)" stroke-width="8"/>
+<path d="M60 370 C195 360,255 340,340 343 S470 318,575 334 S735 308,840 355" fill="none" stroke="#7eeaff" stroke-opacity=".35" stroke-width="4"/>
+<text x="50" y="55" fill="#fff" font-family="Arial" font-size="26" font-weight="700">Supercontinuum &amp; dispersive-wave dynamics</text>
+<text x="50" y="86" fill="#9fc5ec" font-family="Arial" font-size="17">broadband nonlinear spectral evolution in integrated waveguides</text>
+</svg>

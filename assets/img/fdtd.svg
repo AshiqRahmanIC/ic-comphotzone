@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470">
+<defs><radialGradient id="r"><stop stop-color="#fff"/><stop offset=".2" stop-color="#6de3ff"/><stop offset=".55" stop-color="#0b58d0"/><stop offset="1" stop-color="#071a39"/></radialGradient></defs>
+<rect width="900" height="470" fill="#071a39"/>
+<g opacity=".22" stroke="#61baff" stroke-width="1"><path d="M0 47H900M0 94H900M0 141H900M0 188H900M0 235H900M0 282H900M0 329H900M0 376H900M0 423H900"/><path d="M45 0V470M90 0V470M135 0V470M180 0V470M225 0V470M270 0V470M315 0V470M360 0V470M405 0V470M450 0V470M495 0V470M540 0V470M585 0V470M630 0V470M675 0V470M720 0V470M765 0V470M810 0V470M855 0V470"/></g>
+<circle cx="265" cy="280" r="150" fill="url(#r)" opacity=".85"/>
+<circle cx="615" cy="280" r="112" fill="none" stroke="#d26aff" stroke-width="7" opacity=".85"/>
+<circle cx="615" cy="280" r="75" fill="none" stroke="#6de3ff" stroke-width="6" opacity=".85"/>
+<circle cx="615" cy="280" r="36" fill="#fff" opacity=".9"/>
+<text x="50" y="55" fill="#fff" font-family="Arial" font-size="26" font-weight="700">Computational electromagnetics</text>
+<text x="50" y="86" fill="#9fc5ec" font-family="Arial" font-size="17">FDTD, cavity resonances, interference, diffraction, scattering, field visualization</text>
+</svg>

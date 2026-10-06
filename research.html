@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research | ComPhotZone</title>
+<meta name="description" content="Research areas of the Illinois College Computational Photonics Zone">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="ComPhotZone logo">
+      <span class="brand-text"><strong>ComPhotZone</strong><span>Illinois College</span></span>
+    </a>
+    <button class="menu-btn" aria-label="Open navigation">☰</button>
+    <nav class="nav-links"><a href="index.html" class="">Home</a>
+<a href="research.html" class="active">Research</a>
+<a href="people.html" class="">People</a>
+<a href="publications.html" class="">Publications</a>
+<a href="opportunities.html" class="">Opportunities</a>
+<a href="contact.html" class="">Contact</a></nav>
+    <a class="btn btn-primary" href="opportunities.html">Join the Zone</a>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero"><div class="container"><span class="eyebrow" style="color:#8beaff">Research</span><h1>Computational photonics across spectrum, time, and space.</h1><p>Our research uses numerical models to connect electromagnetic theory with ultrafast and nonlinear optical phenomena. The emphasis is on physics-rich, reproducible computational studies that can be advanced by undergraduate researchers.</p></div></section>
+
+<section class="section" id="diamond"><div class="container grid-2">
+  <div><span class="eyebrow">01 · Diamond nonlinear photonics</span><h2>Supercontinuum generation and dispersive-wave control</h2><p>We model femtosecond pulse propagation in dispersion-engineered diamond waveguides using the generalized nonlinear Schrödinger equation. Current work examines soliton-related dynamics, broadband spectral generation, Raman effects, higher-order dispersion, self-steepening, and blue-side dispersive-wave emission.</p>
+  <p>A central question is how pump conditions control the output. In our current study, pump wavelength primarily tunes the spectral position of the blue-side dispersive wave, while pump power strongly controls its generation strength.</p>
+  <div class="tag-row"><span class="tag">GNLSE</span><span class="tag">RK4IP</span><span class="tag">Soliton dynamics</span><span class="tag">Dispersive waves</span><span class="tag">Diamond</span></div></div>
+  <div class="card project-card"><div class="project-art" style="height:330px"><img src="assets/img/scg.svg" alt="Stylized nonlinear spectrum"></div><div class="project-body small muted">Current numerical platform includes waveguide eigenmode/dispersion characterization and nonlinear pulse-propagation simulations for a 1035-nm femtosecond pump in a 5-mm nonlinear section.</div></div>
+</div></section>
+
+<section class="section" style="background:#fff"><div class="container grid-2">
+  <div class="card project-card"><div class="project-art" style="height:330px"><img src="assets/img/methods.svg" alt=""></div></div>
+  <div><span class="eyebrow">02 · Integrated-photonic modeling</span><h2>From geometry to nonlinear propagation</h2><p>Our computational workflow links the optical structure to the nonlinear result. We calculate guided modes and effective indices, characterize dispersion and zero-dispersion wavelengths, estimate effective mode area and nonlinear response, and then propagate ultrashort pulses through the resulting model.</p>
+  <p>The lab is building around open-source and broadly accessible tools, including Python-based analysis, MPB/Meep workflows, gdsfactory for photonic layout, and numerical propagation codes.</p>
+  <div class="tag-row"><span class="tag">Eigenmodes</span><span class="tag">Dispersion</span><span class="tag">MPB / Meep</span><span class="tag">gdsfactory</span><span class="tag">Python</span></div></div>
+</div></section>
+
+<section class="section" id="temporal"><div class="container grid-2">
+  <div><span class="eyebrow">03 · Time-domain photonics</span><h2>Temporal mirrors and time-lens dynamics</h2><p>We numerically investigate optical analogues of spatial reflection that occur in the time domain. Current work includes reconstruction of accelerated temporal-mirror dynamics using generalized nonlinear-wave propagation tools and analysis in a soliton reference frame.</p>
+  <p>This direction provides a computational route for studying advanced concepts such as temporal reflection, pulse interaction with moving temporal structures, and time-lens behavior.</p>
+  <div class="tag-row"><span class="tag">Temporal mirror</span><span class="tag">Time lens</span><span class="tag">Nonlinear wave dynamics</span></div></div>
+  <div class="card project-card"><div class="project-art" style="height:330px"><img src="assets/img/temporal-mirror.svg" alt=""></div></div>
+</div></section>
+
+<section class="section" style="background:#fff" id="fdtd"><div class="container grid-2">
+  <div class="card project-card"><div class="project-art" style="height:330px"><img src="assets/img/fdtd.svg" alt=""></div></div>
+  <div><span class="eyebrow">04 · Computational electromagnetics</span><h2>FDTD, resonances, and field visualization</h2><p>Student research projects use finite-difference time-domain methods and direct numerical field calculations to build intuition for electromagnetic waves. Projects include resonant modes of two-dimensional PEC cavities, 2D electromagnetic-wave solvers, and numerical magnetic-field modeling based on the Biot–Savart law.</p>
+  <p>These projects emphasize validation against analytical physics, convergence, discretization error, computational efficiency, and clear scientific visualization.</p>
+  <div class="tag-row"><span class="tag">FDTD</span><span class="tag">PEC cavities</span><span class="tag">Wave propagation</span><span class="tag">Biot–Savart</span></div></div>
+</div></section>
+
+<section class="section"><div class="container grid-2">
+  <div><span class="eyebrow">05 · Chalcogenide nonlinear optics</span><h2>Mid-infrared supercontinuum and ultrashort pulses</h2><p>ComPhotZone builds on prior research in highly nonlinear chalcogenide fibers and waveguides, including mid-infrared supercontinuum generation and ultrashort pulse generation. This background informs our current work on integrated nonlinear-photonic platforms and broadband coherent light generation.</p>
+  <div class="tag-row"><span class="tag">Mid-IR</span><span class="tag">Chalcogenide</span><span class="tag">Supercontinuum</span><span class="tag">Ultrashort pulses</span></div></div>
+  <div class="notice"><h3>Research philosophy</h3><p>We use computation as a physics laboratory: start from governing equations, implement or adapt a numerical model, validate it, explore parameter space, and interpret the result in terms of physical mechanisms.</p></div>
+</div></section>
+
+<section class="section" style="background:#fff" id="hybrid-mode-locking"><div class="container grid-2">
+  <div class="card project-card"><div class="project-art" style="height:330px"><img src="assets/img/hybrid-mode-locking.svg" alt="Ultrashort pulse train from hybrid mode locking"></div></div>
+  <div>
+    <span class="eyebrow">06 · Mode-locked ultrafast sources</span>
+    <h2>Ultrashort pulse generation using hybrid mode locking</h2>
+    <p>This research direction studies the generation of ultrashort optical pulse trains through hybrid mode locking, where active and passive mode-locking mechanisms are combined in a single laser system.</p>
+    <p>The computational focus is on the pulse-formation dynamics, stability of the mode-locked state, repetition behavior, and how laser-system parameters influence the temporal and spectral characteristics of the generated pulses.</p>
+    <div class="tag-row"><span class="tag">Hybrid mode locking</span><span class="tag">Ultrashort pulses</span><span class="tag">Laser dynamics</span><span class="tag">Pulse trains</span></div>
+  </div>
+</div></section>
+
+<section class="section" id="qdsoa-crypto"><div class="container grid-2">
+  <div>
+    <span class="eyebrow">07 · All-optical information processing</span>
+    <h2>All-optical cryptography using quantum-dot semiconductor optical amplifiers</h2>
+    <p>This project investigates the use of quantum-dot semiconductor optical amplifiers (QD-SOAs) as nonlinear photonic elements for all-optical cryptographic signal processing.</p>
+    <p>The research direction focuses on how optical signals can be transformed, combined, or encoded directly in the optical domain using semiconductor-device nonlinearities, with the broader goal of high-speed photonic information processing without repeated optical-to-electrical conversion.</p>
+    <div class="tag-row"><span class="tag">QD-SOA</span><span class="tag">All-optical cryptography</span><span class="tag">Nonlinear photonics</span><span class="tag">Optical signal processing</span></div>
+  </div>
+  <div class="card project-card"><div class="project-art" style="height:330px"><img src="assets/img/qdsoa-cryptography.svg" alt="QD-SOA all-optical cryptography concept"></div></div>
+</div></section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo-lockup"><img src="assets/img/logo.svg" width="46" height="46" alt=""><h3>ComPhotZone</h3></div>
+        <p>Illinois College Computational Photonics Zone — computational research in nonlinear photonics, ultrafast optical dynamics, and electromagnetic modeling.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <p><a href="research.html">Research</a><br><a href="people.html">People</a><br><a href="publications.html">Publications</a></p>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p><a href="mailto:ashiq.rahman@ic.edu">ashiq.rahman@ic.edu</a><br>Illinois College<br>Jacksonville, Illinois</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span data-year></span> ComPhotZone · Illinois College. Research-group site maintained by the group.</div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body></html>
